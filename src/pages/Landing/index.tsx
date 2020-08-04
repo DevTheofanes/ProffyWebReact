@@ -7,10 +7,12 @@ import studyIcon from "../../assets/icons/study.svg";
 import giveClassesIcon from "../../assets/icons/give-classes.svg";
 import purpleHeartIcon from "../../assets/icons/purple-heart.svg";
 
+import "./styles.css";
+
 function Landing() {
   return (
     <div id="page-landing">
-      <div id="page-landing-content" className="contain">
+      <div id="page-landing-content" className="container">
         <div className="logo-container">
           <img src={logoImg} alt="Proffy" />
 
