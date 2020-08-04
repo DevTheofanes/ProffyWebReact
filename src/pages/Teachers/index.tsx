@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import backIcon from "../../assets/icons/back.svg";
 import logoImg from "../../assets/logo.svg";
 
+import "./styles.css";
+
 function Teachers() {
   return (
-    <div id="page-teachers-list" className="container">
+    <div id="page-teacher-list" className="container">
       <header className="page-header">
         <div className="top-bar-container">
           <Link to="/">
